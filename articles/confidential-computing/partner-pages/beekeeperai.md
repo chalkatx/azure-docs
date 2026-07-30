@@ -1,35 +1,36 @@
 ---
-title: BeeKeeper AI
-description: Confidential computing solutions from BeeKeeper AI on Azure
+title: BeeKeeperAI, Inc.
+description: Confidential computing solutions from BeeKeeperAI for secure, sovereign AI collaboration
 services: virtual-machines
 author: ananyagarg
 ms.service: azure-confidential-computing
 ms.topic: concept-article
-ms.date: 03/29/2023
+ms.date: 07/30/26
 ms.author: ananyagarg
-# Customer intent: "As an AI developer, I want to utilize a secure platform for algorithm development on sensitive data, so that I can ensure compliance and ethical standards while maintaining privacy and security."
+# Customer intent: "As a data custodian or AI/analytics developer in a regulated or high-consequence industry, I want a platform that protects both sensitive data and model IP throughout computation, so I can collaborate across organizational boundaries — or protect my own data and models from my own infrastructure — while meeting compliance and sovereignty requirements."
+
 ---
 
-# BeeKeeperAI, Inc.
-
+# EscrowAI
 
 ## Overview
 
-BeeKeeperAI safely accelerates artificial intelligence (AI) algorithm development and deployment by using [Azure confidential computing](../index.yml)  capabilities within a zero trust and sightless computing environment.
+BeeKeeperAI delivers Execution Security for AI: protection for sensitive data and high-value AI models that travels through every stage of computation, not just at the perimeter. Built on [Azure confidential computing], BeeKeeperAI's EscrowAI platform lets organizations compute on real-world, sensitive data without exposing it, while letting AI and analytics developers protect their model IP even while it computes.
 
-Their EscrowAI collaboration platform enables algorithm developers to compute securely and ethically on real-world, protected data. The platform enables optimal algorithm development, deployment, and ongoing monitoring for use cases that require:
+EscrowAI is purpose-built for one problem: protecting sensitive data and high-value AI models throughout computation, whether that means two or more organizations collaborating on regulated data, or a single organization that holds both the data and the model and still needs both protected. That makes it suited to regulated and high-consequence industries, including healthcare, financial services, the public sector, defense, and energy.
 
-- Data that can't be deidentified (genomic, retinal, social determinants of health)
-- Small datasets that are difficult to deidentify (rare disease)
-- Data that is too sensitive to risk exposure (mental health)
-- Deidentification efforts that are time consuming or too costly
+EscrowAI's workflows automate deployment of a Trusted Execution Environment inside the data custodian's Azure tenant, preserving data sovereignty by design. Encryption keys are managed independently of every party, including EscrowAI, and are released only after the Execution Environment passes remote attestation — proof it's running exactly the approved code and nothing else. All computation, whether a machine learning model, an analytics job, or an autonomous agent's actions, runs inside a hardware-enforced secure enclave and is logged to an immutable, independently verifiable audit record.
 
-EscrowAI is a SaaS offering available in the Azure Cloud environment requiring little time to activate. You can try it today from the [Azure Marketplace solution](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/beekeeperaiinc1643748994169.escrowaiphase1atestdrive?tab=Overview).
+The platform supports use cases that require:
 
-You can also check out how BeeKeeperAI speeds healthcare AI development with Azure confidential computing and [Intel SGX](../confidential-computing-enclaves.md), in our Customer Stories published [here](https://customers.microsoft.com/en-us/story/1503405357498110670-beekeeper-ai-healthcare-microsoft-security-solutions). 
+- Data that can't be de-identified (genomic, social determinants of health, etc.)
+- Small datasets that are difficult to de-identify
+- Data that is too sensitive to risk exposure (mental health, classified, or proprietary industrial data)
+
+EscrowAI is a SaaS offering available via Private Offers in the Azure Marketplace and is Azure IP co-sell eligible and MACC eligible. Platform activation within the data custodian's Azure tenant requires hours, not days. 
+
+You can also read how "BeeKeeperAI uses Azure Confidential Computing to enable protected AI validation on sensitive data." (https://www.microsoft.com/en/customers/story/26750-beekeeperai-azure-confidential-ledger)
 
 ## Learn more
 
-- Learn more about [BeeKeeperAI, Inc. here](https://www.beekeeperai.com/).
-
-- Check out the [Azure confidential computing webinar series](https://vshow.on24.com/vshow/Azure_Confidential/exhibits/Home) for more such partners.
+- Learn more about [BeeKeeperAI, Inc. here](https://www.beekeeperai.com/) and at learnmore@beekeeperai.com. 
